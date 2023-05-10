@@ -1,0 +1,65 @@
+.default-card {
+  height: 415px;
+  width: 412px;
+  background-color: #171e28;
+  border-radius: 30px;
+  padding: 32px;
+}
+
+.default-card header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  width: 48px;
+  background-color: #252d37;
+  border-radius: 25px;
+  margin-bottom: 32px;
+}
+
+.default-card section h2 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: 0.4px;
+  margin-bottom: 10px;
+}
+
+.default-card section p {
+  color: #7c8798;
+  line-height: 24px;
+  margin-bottom: 27px;
+}
+
+.rate-menu {
+  display: flex;
+  gap: 23px;
+  margin-bottom: 32px;
+}
+
+.rate-menu div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  color: #959eac;
+  background-color: #252d37;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.default-card footer button {
+  width: 98%;
+  color: #fff;
+  background-color: #fb7413;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  border-radius: 150px;
+  padding: 15px 0;
+  cursor: pointer;
+}
