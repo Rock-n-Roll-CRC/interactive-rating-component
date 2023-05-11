@@ -1,4 +1,5 @@
 .default-card {
+  display: none;
   height: 415px;
   width: 412px;
   background-color: #171e28;
@@ -43,7 +44,7 @@
   justify-content: center;
   height: 50px;
   width: 50px;
-  color: #959eac;
+  color: #7c8798;
   background-color: #252d37;
   font-size: 16px;
   font-weight: 700;
@@ -51,15 +52,32 @@
   cursor: pointer;
 }
 
-.default-card footer button {
-  width: 98%;
+.rate-menu div:hover {
+  color: #fff;
+  background-color: #959eac;
+}
+
+.rate-menu div:active {
   color: #fff;
   background-color: #fb7413;
-  font-weight: 700;
-  text-align: center;
+}
+
+.default-card footer button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 98.2%;
+  color: #fff;
+  background-color: #fb7413;
+  font: 400 15px Overpass, sans-serif;
   text-transform: uppercase;
   letter-spacing: 2.5px;
   border-radius: 150px;
-  padding: 15px 0;
+  padding: 13px 0;
   cursor: pointer;
+}
+
+.default-card footer button:active {
+  color: #fb7413;
+  background-color: #fff;
 }
