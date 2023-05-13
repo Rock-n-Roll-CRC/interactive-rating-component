@@ -6,6 +6,10 @@
   padding: 32px;
 }
 
+.feedback-card.hidden {
+  display: none;
+}
+
 .feedback-card header {
   display: flex;
   align-items: center;
@@ -36,7 +40,7 @@
   margin-bottom: 32px;
 }
 
-.rate-menu div {
+.feedback-rating {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -49,12 +53,17 @@
   cursor: pointer;
 }
 
-.rate-menu div:hover {
+.feedback-rating.toggle {
+  color: #fff;
+  background-color: #fb7413;
+}
+
+.feedback-rating:hover {
   color: #fff;
   background-color: #959eac;
 }
 
-.feedback-description button {
+.feedback-submit {
   width: 98.2%;
   color: #fff;
   background-color: #fb7413;
@@ -66,7 +75,7 @@
   cursor: pointer;
 }
 
-.feedback-card button:active {
+.feedback-submit:active {
   color: #fb7413;
   background-color: #fff;
 }

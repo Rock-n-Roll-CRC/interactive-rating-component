@@ -7,6 +7,10 @@
   padding: 32px;
 }
 
+.feedback-answer-card.visible {
+  display: block;
+}
+
 .feedback-answer-card section {
   display: flex;
   flex-direction: column;
