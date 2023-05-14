@@ -79,3 +79,55 @@
   color: #fb7413;
   background-color: #fff;
 }
+
+@media all and (max-width: 485px) {
+  .feedback-card {
+    width: 327px;
+    height: 360px;
+    border-radius: 15px;
+    padding: 25px;
+  }
+
+  .feedback-card header {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 18px;
+  }
+
+  .feedback-description h2 {
+    font: 400 23px Overpass, sans-serif;
+    letter-spacing: 0.5px;
+    word-spacing: 1.5px;
+    margin-bottom: 12px;
+  }
+
+  .header-star {
+    width: 14px;
+  }
+
+  .feedback-description p {
+    font: 400 14px Overpass, sans-serif;
+    word-spacing: 0.2px;
+    line-height: 22px;
+  }
+
+  .rate-menu {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+
+  .feedback-rating {
+    height: 42px;
+    width: 44px;
+    font: 700 14px Overpass, sans-serif;
+    border-radius: 100px;
+    padding-top: 5px;
+  }
+
+  .feedback-submit {
+    width: 100%;
+    font: 400 14px Overpass, sans-serif;
+    padding: 15px 0 13px;
+  }
+}

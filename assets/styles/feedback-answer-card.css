@@ -50,3 +50,36 @@
   line-height: 1.6;
   padding: 0 3px;
 }
+
+@media all and (max-width: 485px) {
+  .feedback-answer-card {
+    width: 327px;
+    height: 360px;
+    border-radius: 15px;
+    padding: 20px;
+  }
+
+  .feedback-results {
+    margin-bottom: 27px;
+  }
+
+  .feedback-results img {
+    width: 145px;
+    margin: 13px 7px 24px 10px;
+  }
+
+  .feedback-results div {
+    font: 400 14px Overpass, sans-serif;
+    padding: 9px 12px 6px;
+  }
+
+  .answer-thanks h2 {
+    font: 400 24px Overpass, sans-serif;
+    letter-spacing: 0.4px;
+    margin-bottom: 11px;
+  }
+
+  .answer-thanks p {
+    font: 400 14px Overpass, sans-serif;
+  }
+}
