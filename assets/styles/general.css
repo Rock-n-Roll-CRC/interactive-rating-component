@@ -18,3 +18,15 @@ body {
   background-color: #141519;
   font: 400 15px Overpass, sans-serif;
 }
+
+/* Screen readers only */
+.visually-hidden:not(:focus, :active) {
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}

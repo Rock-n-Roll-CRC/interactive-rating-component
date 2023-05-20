@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A simple interactive rating component letting you to rate the feedback on your request with the score from 1 to 5"
+    />
     <title>Interactive Rating Component</title>
 
     <link rel="stylesheet" href="./assets/styles/general.css" />
@@ -19,48 +23,56 @@
     />
   </head>
   <body>
+    <header>
+      <h1 class="visually-hidden">Interactive Rating Component</h1>
+    </header>
+
     <main>
-      <article class="feedback-card">
+      <div class="feedback-card">
         <header>
           <img
             class="header-star"
             src="./assets/images/icon-star.svg"
             alt="Orange star"
+            height="16"
+            width="17"
           />
         </header>
-        <section class="feedback-description">
+        <div class="feedback-description">
           <h2>How did we do?</h2>
           <p>
             Please let us know how we did with your support request. All
             feedback is appreciated to help us improve our offering!
           </p>
-          <section class="rate-menu">
+          <div class="rate-menu">
             <div class="feedback-rating">1</div>
             <div class="feedback-rating">2</div>
             <div class="feedback-rating">3</div>
             <div class="feedback-rating">4</div>
             <div class="feedback-rating">5</div>
-          </section>
+          </div>
           <button class="feedback-submit">Submit</button>
-        </section>
-      </article>
+        </div>
+      </div>
 
-      <article class="feedback-answer-card">
-        <section class="feedback-results">
+      <div class="feedback-answer-card">
+        <div class="feedback-results">
           <img
             src="./assets/images/illustration-thank-you.svg"
             alt="A debit card going through a phone towards its final destination"
+            height="108"
+            width="162"
           />
           <div class="feedback-rating-result" role="text"></div>
-        </section>
-        <section class="answer-thanks">
+        </div>
+        <div class="answer-thanks">
           <h2>Thank you!</h2>
           <p>
             We appreciate you taking the time to give a rating. If you ever need
             more support, don't hesitate to get in touch!
           </p>
-        </section>
-      </article>
+        </div>
+      </div>
     </main>
   </body>
 </html>

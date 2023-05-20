@@ -1,6 +1,6 @@
 # Frontend Mentor - Interactive rating component solution
 
-This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./assets/images/screenshot.jpg)
+![](./designs/screenshot.jpg)
 
 ### Links
 
@@ -37,10 +37,11 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
+- Flexbox
 - Media queries
-- TypeScript
 
 ## Author
 
 - Frontend Mentor - [Danil_Dikhtyar](https://www.frontendmentor.io/profile/Rock-n-Roll-CRC)
 - Twitter - [@Rock_n_Roll_CRC](https://twitter.com/Rock_n_Roll_CRC)
+- Discord - Rock_n_Roll_CRC#2944
